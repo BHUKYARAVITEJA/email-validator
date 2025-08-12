@@ -48,30 +48,33 @@ Here’s the step-by-step workflow:
 
 ### **HTML Structure**
 ```html
-
-
-
-    
-    
-    Email Validator
-     
-
-
-    
-        Email Validator 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validator</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS for styling -->
+</head>
+<body>
+    <div class="container">
+        <h2>Email Validator</h2> <!-- Title -->
         
-        
-        
+        <!-- Input field for email -->
+        <input type="text" id="email" placeholder="Enter your email">
 
-        
-        Validate
+        <!-- Button to trigger validation -->
+        <button onclick="validateEmail()">Validate</button>
 
-        
-        
+        <!-- Area to display result -->
+        <p id="result"></p>
+    </div>
     
-    
-    
-    
+    <!-- External JS file to handle logic -->
+    <script src="script.js"></script>
+</body>
+</html>
+
 
 
 ```
